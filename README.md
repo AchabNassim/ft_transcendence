@@ -1,99 +1,60 @@
 # 🏓 ft_transcendence – Online Multiplayer Pong  
 
-Welcome to **ft_transcendence**, a modern twist on the classic Pong game with online multiplayer, tournaments, AI opponents, and much more! This project was built with **Django, JavaScript, WebSockets** and a microservices architecture to deliver a seamless, real-time gaming experience.
+Welcome to **ft_transcendence**, a modern twist on classic Pong featuring multiplayer, tournaments, and AI opponents! Built with **Django, JavaScript, WebSockets**, and microservices architecture.
 
 ---
 
-## 🎮 Try the Demo
+## 🎮 Try the Demo  
 👉 [Play Against the AI Here](https://achabnassim.github.io/Pong/)  
-*(Early prototype - final version has enhanced features and UI!)*
+*(Note: This demo focuses solely on AI functionality. The final product includes a Single-Page Application (SPA) with enhanced UI, multiplayer modes, tournaments, and social features not shown here.)*
 
-## 🎮 My Contribution – The Heart of the Game
-
-As the **Game Lead**, I was responsible for bringing the Pong experience to life. Here's what I built:
+## 🎮 My Contribution – Game Lead
 
 ### 🕹️ Core Gameplay
-- **Smooth, Real-Time Pong**  
-  - Built the game logic from scratch  
-  - Fluid paddle movement and precise ball physics  
-- **Multiplayer Mode**  
-  - WebSocket-based real-time competition  
-  - Low-latency synchronization  
+- **Real-Time Pong Engine**  
+  - Custom physics and collision system  
+  - WebSocket multiplayer synchronization  
 - **Tournament System**  
-  - Bracket-style tournament mode  
+  - Dynamic bracket generation  
 - **AI Opponents**  
-  - Three difficulty levels (Easy, Hard, Impossible)  
-  - Predictive ball trajectory calculations  
-  - Human-like reaction simulation  
+  - Three difficulty levels with predictive algorithms  
 
 ### 🎨 UI & Matchmaking
-- **Game UI Components**  
-  - Interactive menus and scoreboards  
-  - Web Components for modular design  
-- **Matchmaking Interface**  
-  - Lobby system with queue functionality  
-  - Tournament joining and friend challenges  
-- **Responsive Design**  
-  - Adapts to different screen sizes
+- Modular UI using Web Components  
+- Lobby system with queue functionality  
+- Responsive cross-device design
 
-### ⚡ Performance & Networking
-- **Optimized WebSocket Communication**  
-  - Reduced latency for real-time gameplay  
-  - Efficient data serialization  
-- **Client-Side Prediction**  
-  - Smooth movement despite network fluctuations  
+### ⚡ Performance
+- Optimized WebSocket payloads  
+- Client-side prediction for smooth gameplay
 
 ---
 
 ## 🚀 Team Features
-While I handled the game itself, our team also implemented:
-- **🔒 Secure Authentication**  
-  - OAuth integration  
-  - JWT token system  
-- **💬 Live Chat**  
-  - Direct messaging  
-  - User blocking  
-  - Game invitations  
-- **🛠️ Backend Systems**  
-  - Django server architecture  
-  - Lua scripting for matchmaking logic
-- **📊 Stats & Leaderboards**  
-  - Win/loss tracking  
-  - Player rankings  
-- **🎛️ Customization Options**  
-  - Multiple game modes
-  - Adjustable rulesets  
+- **🔒 Authentication**: OAuth + JWT  
+- **💬 Live Chat** with game invites  
+- **📊 Leaderboards** & player stats  
+- **🛠️ Backend**: Django + Redis + PostgreSQL  
 
 ---
 
 ## 🛠️ Tech Stack
-### Frontend
-- HTML5, CSS3, JavaScript (ES6+)
-- Web Components
-- WebSockets
+**Frontend:**  
+HTML5/CSS3, JavaScript (ES6+), Web Components, WebSockets  
 
-### Backend
-- Nginx (reverse proxy)
-- Python 3, Django
-- Redis (caching)
-- PostgreSQL (database)
-- Lua (matchmaking logic scripts)
+**Backend:**  
+Django, Python 3, Redis, PostgreSQL, Lua  
 
-### Infrastructure
-- Docker containerization
-- Microservices architecture
-- CI/CD pipeline
+**Infra:**  
+Docker, Nginx, CI/CD  
 
-### Security
-- OAuth 2.0
-- JWT authentication
-- HTTPS encryption
+**Security:**  
+HTTPS, OAuth 2.0, JWT  
 
 ---
 
 ## 🌟 Why It's Special
-This isn't just Pong—it's **Pong evolved**:
-- Competitive online multiplayer
-- Challenging AI opponents
-- Tournament system for serious players
-- Modern tech stack with robust architecture
+- Competitive tournaments & matchmaking  
+- Adaptive AI opponents  
+- Modern microservices architecture  
+- Real-time WebSocket communication
