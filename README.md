@@ -1,59 +1,106 @@
-🏓 ft_transcendence – Online Multiplayer Pong
+# 🏓 ft_transcendence – Online Multiplayer Pong  
 
-Welcome to ft_transcendence, a modern twist on the classic Pong game with online multiplayer, tournaments, AI opponents, and much more! This project was built with Django, Javascript, WebSockets and a microservices architecture to deliver a seamless, real-time gaming experience.
+Welcome to **ft_transcendence**, a modern twist on the classic Pong game with online multiplayer, tournaments, AI opponents, and much more! This project was built with **Django, JavaScript, WebSockets** and a microservices architecture to deliver a seamless, real-time gaming experience.
 
-🎮 My Contribution – The Heart of the Game
-As the Game Lead, I was responsible for bringing the Pong experience to life. Here’s what I built:
+---
 
-🕹️ Core Gameplay
+## 🎮 My Contribution – The Heart of the Game
 
-    Smooth, Real-Time Pong – Built the game logic from scratch, ensuring fluid paddle movement and ball physics.
+As the **Game Lead**, I was responsible for bringing the Pong experience to life. Here's what I built:
 
-    Multiplayer Mode – Implemented WebSocket-based multiplayer so players can compete online in real-time.
+### 🕹️ Core Gameplay
+- **Smooth, Real-Time Pong**  
+  - Built the game logic from scratch  
+  - Fluid paddle movement and precise ball physics  
+- **Multiplayer Mode**  
+  - WebSocket-based real-time competition  
+  - Low-latency synchronization  
+- **Tournament System**  
+  - Bracket-style tournament mode  
+  - Sequential match progression with automatic scheduling  
+- **AI Opponents**  
+  - Three difficulty levels (Easy, Hard, Impossible)  
+  - Predictive ball trajectory calculations  
+  - Human-like reaction simulation  
 
-    Tournament System – Designed a bracket-style tournament mode where players face off in sequential matches.
+### 🎨 UI & Matchmaking
+- **Game UI Components**  
+  - Interactive menus and scoreboards  
+  - Custom HUD using vanilla HTML/CSS  
+  - Web Components for modular design  
+- **Matchmaking Interface**  
+  - Lobby system with queue functionality  
+  - Tournament joining and friend challenges  
+- **Responsive Design**  
+  - Adapts to different screen sizes  
+  - Mobile-friendly controls  
 
-    AI Opponents – Created AI with three difficulty levels (Easy, Hard, Impossible), each with unique behaviors. The AI predicts ball trajectories and simulates human-like reactions.
+### ⚡ Performance & Networking
+- **Optimized WebSocket Communication**  
+  - Reduced latency for real-time gameplay  
+  - Efficient data serialization  
+- **Client-Side Prediction**  
+  - Smooth movement despite network fluctuations  
 
-🎨 UI & Matchmaking
+---
 
-    Game UI Components – Developed interactive menus, scoreboards, and in-game HUD using vanilla HTML, CSS, and Web Components.
-
-    Matchmaking Interface – Built a lobby system where players can queue for matches, join tournaments, or challenge friends.
-
-    Responsive Design – Ensured the game works flawlessly on different screen sizes.
-
-⚡ Performance & Networking
-
-    Optimized WebSocket Communication – Reduced latency for real-time gameplay.
-
-🚀 Features (Team Effort!)
-
+## 🚀 Team Features
 While I handled the game itself, our team also implemented:
+- **🔒 Secure Authentication**  
+  - OAuth integration  
+  - JWT token system  
+- **💬 Live Chat**  
+  - Direct messaging  
+  - User blocking  
+  - Game invitations  
+- **🛠️ Backend Systems**  
+  - Django server architecture  
+  - Lua scripting for game logic  
+- **📊 Stats & Leaderboards**  
+  - Win/loss tracking  
+  - Player rankings  
+- **🎛️ Customization Options**  
+  - Multiple game modes  
+  - Adjustable rulesets  
 
-    🔒 Secure Authentication (OAuth, JWT)
+---
 
-    💬 Live Chat (DM, blocking, game invites)
+## 🛠️ Tech Stack
+### Frontend
+- HTML5, CSS3, JavaScript (ES6+)
+- Web Components
+- WebSockets
 
-    🛠️ Backend with Django & Lua Scripts (server-side processing)
+### Backend
+- Nginx (reverse proxy)
+- Python 3, Django
+- Redis (caching)
+- PostgreSQL (database)
+- Lua (game logic scripts)
 
-    📊 Stats & Leaderboards (Track wins, losses, rankings)
+### Infrastructure
+- Docker containerization
+- Microservices architecture
+- CI/CD pipeline
 
-    🎛️ Customization Options (Different game modes & rules)
+### Security
+- OAuth 2.0
+- JWT authentication
+- HTTPS encryption
 
-🛠️ Tech Stack
+---
 
-    Frontend: HTML, CSS, JavaScript, Web Components, WebSockets
+## 🌟 Why It's Special
+This isn't just Pong—it's **Pong evolved**:
+- Competitive online multiplayer
+- Challenging AI opponents
+- Tournament system for serious players
+- Modern tech stack with robust architecture
 
-    Backend: Nginx, Python, Django, Redis, Postgresql, Lua...
+---
 
-    Networking: WebSockets, HTTP
+## 🎮 Try the Demo
+👉 [Play Against the AI Here](https://achabnassim.github.io/Pong/)  
+*(Early prototype - final version has enhanced features and UI!)*
 
-    Security: OAuth, JWT
-
-🌟 Why It’s Cool
-
-This isn’t just Pong—it’s Pong evolved. Whether you're playing against friends, climbing the leaderboards, or facing an AI that actually challenges you, every match feels fresh and competitive.
-🎮 Try a Demo (AI-Only Mode)
-
-👉 Play Against the AI Here (Early prototype. final version has way more features and uses a different ui!)
+---
