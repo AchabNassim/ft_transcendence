@@ -4,6 +4,10 @@ Welcome to **ft_transcendence**, a modern twist on the classic Pong game with on
 
 ---
 
+## 🎮 Try the Demo
+👉 [Play Against the AI Here](https://achabnassim.github.io/Pong/)  
+*(Early prototype - final version has enhanced features and UI!)*
+
 ## 🎮 My Contribution – The Heart of the Game
 
 As the **Game Lead**, I was responsible for bringing the Pong experience to life. Here's what I built:
@@ -93,11 +97,3 @@ This isn't just Pong—it's **Pong evolved**:
 - Challenging AI opponents
 - Tournament system for serious players
 - Modern tech stack with robust architecture
-
----
-
-## 🎮 Try the Demo
-👉 [Play Against the AI Here](https://achabnassim.github.io/Pong/)  
-*(Early prototype - final version has enhanced features and UI!)*
-
----
