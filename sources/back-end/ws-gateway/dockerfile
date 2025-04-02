@@ -1,0 +1,18 @@
+FROM python:3.12.2-slim-bullseye
+
+COPY    ./tools/ tools/
+
+RUN     python -m venv venv \
+        && . /venv/bin/activate \
+        && pip install --no-cache-dir --upgrade pip \
+        && pip install --no-cache-dir -r /tools/requirements.txt
+
+ENV     PATH="/venv/bin:$PATH"
+COPY    ./app/ app/
+WORKDIR /app
+
+EXPOSE 8000
+
+# for Devlopment
+ENTRYPOINT ["python", "manage.py"]
+CMD ["runserver", "0.0.0.0:8000"]
