@@ -15,14 +15,16 @@ Welcome to **ft_transcendence**, a modern twist on classic Pong featuring multip
   - Custom physics and collision system  
   - WebSocket multiplayer synchronization  
 - **Tournament System**  
-  - Dynamic bracket generation  
+  - Integrated WebSocket client for real-time bracket updates  
+  - Dynamic match progression synced with backend  
 - **AI Opponents**  
   - Three difficulty levels with predictive algorithms  
 
-### 🎨 UI & Matchmaking
-- Modular UI using Web Components  
-- Lobby system with queue functionality  
-- Responsive cross-device design
+### 🎨 UI Components
+- **Real-Time UI Elements**  
+  - Live-updating tournament brackets and match status  
+  - WS-synced player profiles with avatars  
+- Modular Web Components architecture  
 
 ### ⚡ Performance
 - Optimized WebSocket payloads  
@@ -49,12 +51,4 @@ Django, Python 3, Redis, PostgreSQL, Lua
 Docker, Nginx, CI/CD  
 
 **Security:**  
-HTTPS, OAuth 2.0, JWT  
-
----
-
-## 🌟 Why It's Special
-- Competitive tournaments & matchmaking  
-- Adaptive AI opponents  
-- Modern microservices architecture  
-- Real-time WebSocket communication
+HTTPS, OAuth 2.0, JWT
