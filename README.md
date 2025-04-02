@@ -17,7 +17,6 @@ As the **Game Lead**, I was responsible for bringing the Pong experience to life
   - Low-latency synchronization  
 - **Tournament System**  
   - Bracket-style tournament mode  
-  - Sequential match progression with automatic scheduling  
 - **AI Opponents**  
   - Three difficulty levels (Easy, Hard, Impossible)  
   - Predictive ball trajectory calculations  
@@ -26,14 +25,12 @@ As the **Game Lead**, I was responsible for bringing the Pong experience to life
 ### 🎨 UI & Matchmaking
 - **Game UI Components**  
   - Interactive menus and scoreboards  
-  - Custom HUD using vanilla HTML/CSS  
   - Web Components for modular design  
 - **Matchmaking Interface**  
   - Lobby system with queue functionality  
   - Tournament joining and friend challenges  
 - **Responsive Design**  
-  - Adapts to different screen sizes  
-  - Mobile-friendly controls  
+  - Adapts to different screen sizes
 
 ### ⚡ Performance & Networking
 - **Optimized WebSocket Communication**  
@@ -55,12 +52,12 @@ While I handled the game itself, our team also implemented:
   - Game invitations  
 - **🛠️ Backend Systems**  
   - Django server architecture  
-  - Lua scripting for game logic  
+  - Lua scripting for matchmaking logic
 - **📊 Stats & Leaderboards**  
   - Win/loss tracking  
   - Player rankings  
 - **🎛️ Customization Options**  
-  - Multiple game modes  
+  - Multiple game modes
   - Adjustable rulesets  
 
 ---
@@ -76,7 +73,7 @@ While I handled the game itself, our team also implemented:
 - Python 3, Django
 - Redis (caching)
 - PostgreSQL (database)
-- Lua (game logic scripts)
+- Lua (matchmaking logic scripts)
 
 ### Infrastructure
 - Docker containerization
